@@ -4,8 +4,8 @@
 - SignUp Page
 - Login Page
 - Choice of subject 
-    HTML
-    CSS
-    Java Script
+    - HTML
+    - CSS
+    - Java Script
 - Search Results
 - References 
