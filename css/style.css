@@ -1,7 +1,7 @@
 #wrapper {
 	min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
 }
 
 body {
@@ -30,7 +30,7 @@ input[type="text"] {
 }
 
 button {
-	color: #fff;
+	color: #F0F8FD;
 	background-color: #29c5e6;
 	border: none;
 	height: 32px;
@@ -75,7 +75,7 @@ nav li {
 }
 
 .top-menu a {
-	color: #b2b2b2;
+	color: #0E8CC6;
 }
 
 #heading {
@@ -178,7 +178,7 @@ figure div {
 
 footer {
 	background: #7e7e7e;
-	color: #dbdbdb;
+	color: #F0FCFD;
 	font-size: 11px;
 }
 
@@ -190,7 +190,7 @@ footer {
 }
 
 footer a {
-	color: #dbdbdb;
+	color: #F0FCFD;
 }
 
 #sitemap {
@@ -243,14 +243,6 @@ footer a {
 
 .html{
 	background-position: 0 0;
-}
-
-.facebook {
-	background-position: -30px 0;
-}
-
-.google-plus {
-	background-position: -60px 0;
 }
 
 #footer-logo {
