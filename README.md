@@ -3,9 +3,13 @@
 - Pages
 - SignUp Page
 - Login Page
+- Admin Panel
+- Form of feedback
 - Choice of subject 
     - HTML
     - CSS
     - Java Script
-- Search Results
+    - Angular
+    - React
+    - Vue.js
 - References 
