@@ -10,6 +10,23 @@ body {
 	margin: 0;
 }
 
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+body {
+        overflow: auto; /* добавить полосу прокрутки */ 
+      
+}
+
+main {
+        min-height: 100%;
+}
+
+
 .header {
 	background-color: #391f5355;
 	font: 12px Tahoma, sans-serif;
@@ -221,6 +238,8 @@ footer a {
 	background-position: 0 0;
 }
 
+
+
 #footer-logo {
 	float: right;
 	margin-top: 20px;
@@ -228,14 +247,30 @@ footer a {
 	text-align: right;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+@media only screen and (max-device-width: 480px) 
 
-.html{
-	background-position: 0 0;
+{
+div#wrapper {
+    width: 400px;
 }
 
+div#header {
+    background-image: url(media-queries-phone.jpg);
+    height: 93px;
+    position: relative;
+}
+
+div#header h1 {
+    font-size: 140%;
+}
+
+#content {
+    float: none;
+    width: 100%;
+}
+
+#navigation {
+    float:none;
+    width: auto;
+ } 
+}
