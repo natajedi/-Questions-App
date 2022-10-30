@@ -41,7 +41,7 @@ button {
 	background-color: #5836f1e8;
 	border: solid thick blue;
         border-radius: 2em;
-        box-shadow: grey 0.5em 0.5em 0.3em;
+        box-shadow: #87CEEB 0.5em 0.5em 0.3em;
 	height: 32px;
 	font-family: 'Arial', sans-serif;
 }
