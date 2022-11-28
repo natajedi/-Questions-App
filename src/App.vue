@@ -1,23 +1,31 @@
-<script setap>
-import LayoutHeader from '@/components/layout/Header.vue'
-import LayoutSidebar from '@/components/layout/Sidebar.vue'
-import {ref} from 'vue'
+<script>
+import Header from '@/components/layout/Header.vue';
+import Sidebar from '@/components/layout/Sidebar.vue';
 
-const isOpenMenu = ref(false)
-const toggleMenu = () => {
-   isOpenMenu.value = !isOpenMenu.value
-}
+export default {
+  components: {Sidebar, Header},
+  data() {
+    return {
+      isOpenMenu: false,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isOpenMenu = !this.isOpenMenu;
+    }
+  }
+};
 </script>
 
 <template>
-<div class="container">
-  <div class="sidebar-toggle" @click="toggleMenu">menu</div>
-  <layout-header/>
-  <layout-sidebar :openSidebar="isOpenMenu"/>
-<div class="content">
-   <router-view/>
+  <div class="container">
+    <div class="sidebar-toggle" @click="toggleMenu">menu</div>
+    <Header/>
+    <Sidebar :openSidebar="isOpenMenu"/>
+    <div class="content">
+      <router-view/>
+    </div>
   </div>
-</div>
 </template>
 
 <style lang="scss">
@@ -36,6 +44,7 @@ const toggleMenu = () => {
   margin-left: 250px;
   padding: 30px;
   transition: .2s;
+
   &_full {
     margin-left: 0;
   }
@@ -56,9 +65,9 @@ const toggleMenu = () => {
   justify-content: center;
 }
 
-@media screen  and (max-width: 1023px) {
-.content {
-  margin-left: 0;
+@media screen and (max-width: 1023px) {
+  .content {
+    margin-left: 0;
   }
 }
 
