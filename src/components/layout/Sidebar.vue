@@ -1,17 +1,21 @@
-<script setap>
-import {ref} from 'vue';
-
-const props = defineProps({
+<script>
+export default {
+  props: {
     openSidebar: {
       type: Boolean,
       required: true
     }
-})
+  },
+  data() {
+    return {
+      links: [
+        {name: 'Tip', href: '/tip'},
+        {name: 'Button', href: '/button'}
+      ]
+    }
+  }
+};
 
-const links = ref([
-{name: 'Tip', href: '/tip'},
-{name: 'Button', href: '/button'}
-])
 </script>
 
 <template>
@@ -34,7 +38,7 @@ const links = ref([
     width: 250px;
     padding: 20px;
     transition: 0.2s;
-    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 1.0);
+    box-shadow: 0 0 10px rgba($color: #000000, $alpha: 1.0);
     transform: translateX(-250px);
     &_isopen {
         transform: translateX(0px);   

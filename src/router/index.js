@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Index from '@/views/Index.vue'
-import Button from '@/views/Button.vue'
-import Tip from '@/views/Tip.vue'
+import Button from '@/components/layout/Button.vue'
+import Tip from '@/components/layout/Tip.vue'
 
 const router = createRouter({
   history: createWebHistory(),
