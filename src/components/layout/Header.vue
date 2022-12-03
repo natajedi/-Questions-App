@@ -6,10 +6,10 @@
 
 <style lang="scss" scoped>
 .header {
-    background: #fff;
+    background: rgb(228, 247, 237);
     font-weight: bold;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 1.0);
+    box-shadow: 0px 0px 20px rgba($color: #4bebeb, $alpha: 1.0);
     height: 64px;
     display: flex;
     align-items: center;

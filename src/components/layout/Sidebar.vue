@@ -9,8 +9,9 @@ export default {
   data() {
     return {
       links: [
-        {name: 'Tip', href: '/tip'},
-        {name: 'Button', href: '/button'}
+        {name: 'HTML', href: '/quiz_html'},
+        {name: 'CSS', href: '/quiz_css'},
+        {name: 'JS', href: '/quiz_js'}
       ]
     }
   }
@@ -33,12 +34,12 @@ export default {
     left: 0;
     top: 62px;
     height: 100%;
-    background: #fff;
+    background: #ecf5f3;
     position: fixed;
     width: 250px;
     padding: 20px;
     transition: 0.2s;
-    box-shadow: 0 0 10px rgba($color: #000000, $alpha: 1.0);
+    box-shadow: 0 0 20px rgba($color: #4bebeb, $alpha: 1.0);
     transform: translateX(-250px);
     &_isopen {
         transform: translateX(0px);   
