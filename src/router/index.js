@@ -1,7 +1,8 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Index from '@/views/Index.vue'
-import Button from '@/components/layout/Button.vue'
-import Tip from '@/components/layout/Tip.vue'
+import CSS from '@/components/layout/Quiz_css.vue'
+import HTML from '@/components/layout/Quiz_html.vue'
+import JS from '@/components/layout/Quiz_js.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -12,15 +13,20 @@ const router = createRouter({
    component: Index
    },
  {
-   path: '/button',
-   name: 'Button',
-   component: Button
+   path: '/quiz_css',
+   name: 'CSS',
+   component: CSS
    },
+  {
+    path: '/quiz_html',
+    name: 'HTML',
+    component: HTML
+  }, 
  {
-   path: '/tip',
-   name: 'Tip',
-   component: Tip
-   },
+   path: '/quiz_js',
+   name: 'JS',
+   component: JS
+  },
 ]
 })
 
