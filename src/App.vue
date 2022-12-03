@@ -19,7 +19,7 @@ export default {
 
 <template>
   <div class="container">
-    <div class="sidebar-toggle" @click="toggleMenu">menu</div>
+    <div class="sidebar-toggle" @click="toggleMenu"><button>GO</button></div>
     <Header/>
     <Sidebar :openSidebar="isOpenMenu"/>
     <div class="content">
@@ -59,7 +59,7 @@ export default {
   top: 62px;
   z-index: 1;
   cursor: pointer;
-  color: #ffff;
+  color: rgb(187, 31, 135);
   display: flex;
   align-items: center;
   justify-content: center;
