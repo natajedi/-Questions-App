@@ -15,6 +15,7 @@ export default {
     }
   }
 };
+
 </script>
 
 <template>
@@ -30,6 +31,12 @@ export default {
 
 <style lang="scss">
 @import "./styles/global.scss";
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 #app {
   height: 6em;
@@ -48,6 +55,27 @@ export default {
   &_full {
     margin-left: 0;
   }
+}
+
+.heading {
+    &-1 {
+        font-size: 34px;
+        margin: 20px 0px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &-2 {
+        font-size: 22px;
+        margin: 20px 0px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &-3 {
+        font-size: 17px;
+        margin: 20px 0px;
+        font-weight: 300;
+        color: #b4e6cf;
+    }
 }
 
 .sidebar-toggle {
