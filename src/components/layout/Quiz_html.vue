@@ -6,17 +6,21 @@ export default {
     }
   }
 }
-
 </script>
 
 <template>
     <h1 class="heading-1">HTML</h1>
-
+    <p>Question text</p>
     <main class="app">
   <form>
-    <input class="input" type="text" placeholder="Text question">
-    <input class="input" type="text" placeholder="Text question">
-    <input class="input" type="text" placeholder="Text question">
+    <input class="input" type="text" placeholder="choose the correct answer">
+<input type="checkbox" v-model="toggle" />
+    <input class="input" type="text" placeholder="choose the correct answer">
+<input type="checkbox" v-model="toggle" />
+    <input class="input" type="text" placeholder="choose the correct answer">
+<input type="checkbox" v-model="toggle" />
+
+    <button class="btn" @click="send">Send answer</button>
     <button class="btn" @click="previous">Previous question</button>
     <button class="btn" @click="next">Next question</button>
     <button class="btn" @click="complete">To complete</button>
@@ -37,22 +41,6 @@ export default {
 <style lang="scss" scoped>
 
 .heading {
-    &-1 {
-        font-size: 34px;
-        margin: 20px 0px;
-        font-weight: 300;
-    }
-    &-2 {
-        font-size: 22px;
-        margin: 20px 0px;
-        font-weight: 300;
-    }
-    &-3 {
-        font-size: 17px;
-        margin: 20px 0px;
-        font-weight: 300;
-    }
-
     background: #fff;
     font-weight: bold;
     padding: 20px;
@@ -107,10 +95,18 @@ button:disabled {
 }
 
 form {
+  min-height: 100vh;
   display: flex;
   flex-direction :column;
 }
 
+.checkbox {
+  margin-top: 15px;
+  width: 100%;
+  border: 2px solid #13e7a8;
+  padding: 18px 14px;
+  margin-top: 14px;
+}
 .btn {
   margin-top: 15px;
   align-self: flex-end;
