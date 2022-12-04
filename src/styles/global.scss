@@ -4,12 +4,18 @@
     --second-color: #eb53eb;
 }
 
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #fadada;
+    background: #0f8f4f;
     margin: 0;
 }
 
