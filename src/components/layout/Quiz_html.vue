@@ -41,15 +41,15 @@ export default {
 <style lang="scss" scoped>
 
 .heading {
-    background: #fff;
-    font-weight: bold;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba($color: #28dfc0, $alpha: 1.0);
-    height: 64px;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    position: relative;
+  background: #fff;
+  font-weight: bold;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba($color: #28dfc0, $alpha: 1.0);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: relative;
 }
 
 .app {
