@@ -6,6 +6,11 @@ export default {
     }
   }
 }
+var ele = new Vue({
+     el : "#NewElement",
+    data : Questions
+});
+
 </script>
 
 <template>
@@ -29,7 +34,7 @@ export default {
       <div>Quiz HTML {{ post.title }}</div>
       <div>HTML {{ post.body }}</div>
 <input type="text">
-<textarea name="" id="" cols="30" rows="30"></textarea>
+<textarea name="question" id="" cols="30" rows="30"></textarea>
  </div>
 <div class="quiz-post">
 </div>
