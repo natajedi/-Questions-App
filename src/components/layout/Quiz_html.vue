@@ -34,7 +34,7 @@ var ele = new Vue({
       <div>Quiz HTML {{ post.title }}</div>
       <div>HTML {{ post.body }}</div>
 <input type="text">
-<textarea name="question" id="" cols="30" rows="30"></textarea>
+<textarea name="question" id="1" cols="30" rows="30"></textarea>
  </div>
 <div class="quiz-post">
 </div>
@@ -87,7 +87,7 @@ button {
   border-radius: 5px;
 }
 
-button:disabled {
+ button:disabled {
  opacity: 0.5;
 }
 
