@@ -1,6 +1,5 @@
 { 
-  "questions": "Question", 
-  "data": [ 
+  "data": [
       {
           "id": "1",
           "questions": "question", 

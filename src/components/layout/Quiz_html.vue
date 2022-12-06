@@ -6,11 +6,6 @@ export default {
     }
   }
 }
-var ele = new Vue({
-     el : "#NewElement",
-    data : Questions
-});
-
 </script>
 
 <template>
