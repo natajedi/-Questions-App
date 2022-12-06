@@ -1,8 +1,21 @@
-"Questions" :
-{
-"data": [
-    [
-        {
-           "questions_id": "  "
-           {"id":1,"question":"morbi non lectus aliquam sit"}
-        }
+{ 
+  "questions": "Question", 
+  "data": [ 
+      {
+          "id": "1",
+          "questions": "question", 
+          "answers":"answer"
+      }, 
+      {
+          "id": "2",
+          "question": "question1", 
+          "answer":"answer1"
+      }, 
+      {
+          "id": "3",
+          "question": "question2", 
+          "answer":"answer2"
+      }
+   ] 
+}
+        
