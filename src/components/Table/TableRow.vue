@@ -23,6 +23,9 @@ const props = defineProps({
   column-gap: 10px;
   align-items: center;
   padding: 0 16px;
+  margin: 20px 20px 20px 20px;
+  color: rgb(15, 5, 58);
+  border-radius: 2px;
   @media screen and (max-width: 767px) {
     display: block;
   }
