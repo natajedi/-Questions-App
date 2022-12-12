@@ -51,15 +51,29 @@ const questions = ref([
     <table-column>
       {{question.answer1}}
     </table-column>
+    <div class="round">
+<input type="checkbox" v-model="toggle" />
+<label for="checkbox"></label>
+</div>
     <table-column>
       {{question.answer2}}
     </table-column>
+    <div class="round">
+<input type="checkbox"> 
+<label for="checkbox"></label>
+</div> 
     <table-column>
       {{question.answer3}}
     </table-column>
+    <div class="round">
+<input type="checkbox"> 
+<label for="checkbox"></label>
+</div>
     <table-column>
-      <Button lavel="Next"></Button>
+      <Button label="Next"/>
     </table-column>
     </table-row>
+      <Button label="Next"/>
    </base-table>
+      <Button label="Next"/>
 </template>

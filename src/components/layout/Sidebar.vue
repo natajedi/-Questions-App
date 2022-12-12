@@ -47,8 +47,8 @@ export default {
     &__link {
         display: block;
         border-radius: 12px;
-        padding: 10px;
-        border: 2px;
+        padding: 20px;
+        border: 1px solid #fff;
         transition: 0.2s;
         font-weight: bold;
         margin-bottom: 10px;
