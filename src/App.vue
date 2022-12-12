@@ -33,9 +33,9 @@ export default {
 @import "./styles/global.scss";
 
 .wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #app {
@@ -51,7 +51,6 @@ export default {
   margin-left: 250px;
   padding: 30px;
   transition: .2s;
-
   &_full {
     margin-left: 0;
   }
@@ -87,16 +86,10 @@ export default {
   top: 62px;
   z-index: 1;
   cursor: pointer;
-  color: rgb(187, 31, 135);
+  color: #df7abd;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 1023px) {
-  .content {
-    margin-left: 0;
-  }
 }
 
 </style>
