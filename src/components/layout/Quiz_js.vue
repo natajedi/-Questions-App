@@ -1,18 +1,20 @@
 <template>
     <h1 class="heading-1">JS</h1>
     <div class="content">
-            <span>Выберите правильный вариант ответа</span>
-        </div>
+          
     <div class="questions">
             <span>Выберите правильный вариант ответа</span>
         </div>
+    </div>
     <div class="round">
-<input type="checkbox"> 
+<input type="checkbox">
+<input type="checkbox" data-v-3b970231="">
 <label for="checkbox"></label>
 </div>
-<span>правильный вариант ответа</span>
-
+<span>правильный вариант</span>
+<div>
     <router-link to="/">Home</router-link>
+</div>
 </template>
 
 <style>
