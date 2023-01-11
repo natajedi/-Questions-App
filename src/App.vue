@@ -47,7 +47,7 @@ export default {
 }
 
 .content {
-  min-width: 1400px;
+  min-width: auto;
   margin-left: 250px;
   padding: 30px;
   transition: .2s;
