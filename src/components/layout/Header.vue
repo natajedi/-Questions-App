@@ -19,7 +19,7 @@ export default {
 
 <template>
   <header class="header">
-    <router-link to="/">QUESTION OF COLLECTION</router-link>
+    <router-link to="/">QUEST</router-link>
   </header>
   <header class="registration_form">
     <router-link to="/"></router-link>
