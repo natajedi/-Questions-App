@@ -35,9 +35,10 @@ export default {
     top: 62px;
     height: 100%;
     background: #ecf5f3;
-    position: fixed;
+    position: absolute;
     width: 250px;
-    padding: 20px;
+    padding: 66px;
+    border-radius: 12px;
     transition: 0.2s;
     box-shadow: 0 0 20px rgba($color: #4bebeb, $alpha: 1.0);
     transform: translateX(-250px);
